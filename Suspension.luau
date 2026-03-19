@@ -16,7 +16,7 @@ local function Suspension()
 
 	local WeightRatio = RobloxWeight/CarWeight
 
-	local SpringConstant = PrivateProperties["SpringConstant"]
+	local SpringConstant = PrivateProperties["SpringConstant"] --Spring Constant K
 	--SpringConstant*= WeightRatio --Account for differences in mass between the theoretical calculations and the ROBLOX part mass
 
 	SpringConstant = (SpringConstant/4)*WeightRatio
