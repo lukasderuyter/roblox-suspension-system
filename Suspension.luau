@@ -81,8 +81,8 @@ local function Suspension()
 
 		if RayCastResult then
 			SuccessfulRaycast = true
-			local rotationsonlywheeldircframe = CFrame.lookAt(Vector3.zero,PrimaryPart.CFrame.LookVector,PrimaryPart.CFrame.UpVector)
-			local LocalVelocity = rotationsonlywheeldircframe:ToObjectSpace(CFrame.new(PrimaryPart:GetVelocityAtPosition(RayCastResult.Position)))
+			local WheelRotationCFrame = CFrame.lookAt(Vector3.zero,PrimaryPart.CFrame.LookVector,PrimaryPart.CFrame.UpVector)
+			local LocalVelocity = WheelRotationCFrame:ToObjectSpace(CFrame.new(PrimaryPart:GetVelocityAtPosition(RayCastResult.Position)))
 
 
 
