@@ -6,4 +6,3 @@ Custom Vehicle Physics system and models built in LUA/LUAU for ROBLOX Studio
 - Dampening calculations and coefficients based on ratio
 - Raycast-based wheel suspension
 - Per Wheel force using Vector Forces
-- Client Replication synced with Server
